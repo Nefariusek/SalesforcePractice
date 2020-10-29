@@ -12,7 +12,14 @@
 //ac.getAccounts();
 //System.debug(ac.getAccounts());
 //System.debug(JSON.serializePretty(ac.getAccounts()));
-//Account account = new Account(Name = 'Konto Gdońsk', BillingCity = 'Gdońsk');
-Contact contact = new Contact(LastName = 'TestTest Trigger', AccountId='00109000002J0kxAAC', MailingCity ='Gdaaaeńsk');
+//Account account = new Account(Name = 'Konto Do Testów', BillingCity = 'Gdońsk');
+String accId = '00109000002J0lbAAC';
+Contact contact =// new Contact[] {
+    new Contact(LastName = 'Wchodzi1', AccountId=accId, MailingCity ='Gdeńsk');
+    //new Contact(LastName = 'Wchodzi2', AccountId=accId, MailingCity ='Bytgoszcz');
+   // new Contact(LastName = 'Nie wchodzi1', AccountId=accId, MailingCity ='Gdaaaeńsk'),
+   // new Contact(LastName = 'Wchodzi3', AccountId=accId, MailingCity ='Lublin'),
+   // new Contact(LastName = 'Nie wchodzi2', AccountId=accId, MailingCity ='Wieluń')
+
 //insert account;
 insert contact;
