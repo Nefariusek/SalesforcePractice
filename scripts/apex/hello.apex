@@ -15,7 +15,7 @@
 //Account account = new Account(Name = 'Konto Do Testów', BillingCity = 'Gdońsk');
 String accId = '00109000002J0lbAAC';
 Contact contact =// new Contact[] {
-    new Contact(LastName = 'Wchodzi1', AccountId=accId, MailingCity ='Gdeńsk');
+    new Contact(LastName = 'Wchodzi1', AccountId=accId, MailingCity ='Szczecin');
     //new Contact(LastName = 'Wchodzi2', AccountId=accId, MailingCity ='Bytgoszcz');
    // new Contact(LastName = 'Nie wchodzi1', AccountId=accId, MailingCity ='Gdaaaeńsk'),
    // new Contact(LastName = 'Wchodzi3', AccountId=accId, MailingCity ='Lublin'),
