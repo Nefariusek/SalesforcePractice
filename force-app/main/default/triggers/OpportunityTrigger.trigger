@@ -1,4 +1,4 @@
-trigger ContactTrigger on Contact(
+trigger OpportunityTrigger on Opportunity(
     before insert,
     before update,
     before delete,
@@ -7,5 +7,5 @@ trigger ContactTrigger on Contact(
     after delete,
     after undelete
 ) {
-    TriggerDispatcher.Run(new ContactTriggerHandler());
+    TriggerDispatcher.Run(new OpportunityTriggerHandler());
 }

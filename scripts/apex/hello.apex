@@ -14,11 +14,11 @@
 //System.debug(JSON.serializePretty(ac.getAccounts()));
 //Account account = new Account(Name = 'Konto Do Testów', BillingCity = 'Gdońsk');
 String accId = '00109000002J0lbAAC';
-Contact[] contact = new Contact[] {
-    new Contact(LastName = 'Wchodzi1', AccountId=accId, MailingCity ='Szcczcczzecin'),
-    new Contact(LastName = 'Wchodzi2', AccountId=accId, MailingCity ='Bytgoasdasdasdasdasasdadsasdasdzcz'),
-    new Contact(LastName = 'Nie wchodzi1', AccountId=accId, MailingCity ='Gdaasdasdaaeńsk'),
-    new Contact(LastName = 'Wchodzi3', AccountId=accId, MailingCity ='Gdańsk')
+Contact[] contact = new List<Contact>{
+    new Contact(LastName = 'Wchodzi1', AccountId = accId, MailingCity = 'Szcczcczzecin'),
+    new Contact(LastName = 'Wchodzi2', AccountId = accId, MailingCity = 'Bytgoasdasdasdasdasasdadsasdasdzcz'),
+    new Contact(LastName = 'Nie wchodzi1', AccountId = accId, MailingCity = 'Gdaasdasdaaeńsk'),
+    new Contact(LastName = 'Wchodzi3', AccountId = accId, MailingCity = 'Gdańsk')
 };
 //insert account;
 Database.insert(contact, false);
