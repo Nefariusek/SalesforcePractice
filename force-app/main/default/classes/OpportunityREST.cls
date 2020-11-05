@@ -7,4 +7,14 @@ global with sharing class OpportunityREST {
         Opportunity opp = [SELECT Id FROM Opportunity WHERE Id = :opportunityId];
         delete opp;
     }
+
+    @HttpPost
+    global static void deleteOpportunities() {
+        Set<String> wrapperList = RestContext.request.params.keySet();
+        String wrapperString = wrapperList.toString().replaceAll('\\{|\\[|\\"|\\]|\\=|\\}', '');
+        List<String> listOfIds = wrapperstring.split(',');
+
+        List<Opportunity> opp = [SELECT Id FROM Opportunity WHERE Id IN :listOfIds];
+        delete opp;
+    }
 }
