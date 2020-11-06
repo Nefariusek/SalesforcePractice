@@ -1,0 +1,1 @@
+SELECT Id, Name, OpportunityId, CreatedDate FROM Quote WHERE CreatedDate = LAST_N_DAYS:7
