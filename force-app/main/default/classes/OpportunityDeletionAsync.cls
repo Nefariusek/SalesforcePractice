@@ -10,7 +10,9 @@ public with sharing class OpportunityDeletionAsync {
         req.setMethod('POST');
         String myBody = JSON.serialize(oppToDeleteList);
         req.setBody(myBody);
+        System.debug('SZPAK async body ' + myBody);
         req.setHeader('Content-Length', String.valueOf(myBody.length()));
         HttpResponse res = http.send(req);
+        System.debug('SZPAK async res' + myBody);
     }
 }

@@ -1,0 +1,366 @@
+50.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+16:36:10.0 (831090)|USER_INFO|[EXTERNAL]|00509000000FjHS|szymon.pakula@polsource.com|(GMT+00:00) Greenwich Mean Time (Europe/Dublin)|GMTZ
+16:36:10.0 (906069)|EXECUTION_STARTED
+16:36:10.0 (920831)|CODE_UNIT_STARTED|[EXTERNAL]|01p090000039Du9|OpportunityREST.deleteOpportunities()
+16:36:10.0 (1240281)|HEAP_ALLOCATE|[79]|Bytes:3
+16:36:10.0 (1303584)|HEAP_ALLOCATE|[84]|Bytes:152
+16:36:10.0 (1320771)|HEAP_ALLOCATE|[399]|Bytes:408
+16:36:10.0 (1335094)|HEAP_ALLOCATE|[412]|Bytes:408
+16:36:10.0 (1345984)|HEAP_ALLOCATE|[520]|Bytes:48
+16:36:10.0 (1374357)|HEAP_ALLOCATE|[139]|Bytes:6
+16:36:10.0 (1418365)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:252
+16:36:10.0 (1427226)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:25
+16:36:10.0 (1442998)|SYSTEM_METHOD_ENTRY|[1]|RestRequest.RestRequest()
+16:36:10.0 (1454211)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (1469244)|SYSTEM_METHOD_EXIT|[1]|RestRequest
+16:36:10.0 (1476341)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (1511406)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+16:36:10.0 (1516131)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:13
+16:36:10.0 (1528278)|VARIABLE_SCOPE_BEGIN|[16]|this|System.RestRequest|true|false
+16:36:10.0 (1650312)|VARIABLE_ASSIGNMENT|[16]|this|{}|0x1a63eabe
+16:36:10.0 (1662437)|VARIABLE_SCOPE_BEGIN|[16]|request|java:com.force.swag.rest.RestRequest|true|false
+16:36:10.0 (1923975)|VARIABLE_ASSIGNMENT|[16]|request|"com.force.swag.rest.RestRequestServletImpl@17625679"|0x17625679
+16:36:10.0 (1934604)|VARIABLE_SCOPE_BEGIN|[16]|urlMapping|String|false|false
+16:36:10.0 (1952845)|VARIABLE_ASSIGNMENT|[16]|urlMapping|"/Opportunity/"
+16:36:10.0 (3481792)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (3491728)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:43
+16:36:10.0 (3496959)|VARIABLE_SCOPE_BEGIN|[24]|this|System.RestRequest|true|false
+16:36:10.0 (3539296)|VARIABLE_ASSIGNMENT|[24]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (3548156)|VARIABLE_SCOPE_BEGIN|[24]|name|String|false|false
+16:36:10.0 (3560518)|VARIABLE_ASSIGNMENT|[24]|name|"[\"006090000023dmSAAQ (23 more) ..."
+16:36:10.0 (3565775)|VARIABLE_SCOPE_BEGIN|[24]|value|String|false|false
+16:36:10.0 (3575085)|VARIABLE_ASSIGNMENT|[24]|value|""
+16:36:10.0 (3633758)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (3638531)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+16:36:10.0 (3642914)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:52
+16:36:10.0 (3646987)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (3673862)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (3681237)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (3690033)|VARIABLE_ASSIGNMENT|[28]|name|"Accept"
+16:36:10.0 (3694532)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (3705395)|VARIABLE_ASSIGNMENT|[28]|value|"text/html, image/gif (32 more) ..."
+16:36:10.0 (3763348)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (3767901)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:11
+16:36:10.0 (3771069)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:39
+16:36:10.0 (3773608)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (3799158)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (3822396)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (3832322)|VARIABLE_ASSIGNMENT|[28]|name|"CipherSuite"
+16:36:10.0 (3836744)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (3847065)|VARIABLE_ASSIGNMENT|[28]|value|"ECDHE-RSA-AES256-GCM (19 more) ..."
+16:36:10.0 (3875541)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (3879347)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:10
+16:36:10.0 (3883059)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:17
+16:36:10.0 (3886567)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (3910624)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (3916867)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (3927214)|VARIABLE_ASSIGNMENT|[28]|name|"User-Agent"
+16:36:10.0 (3931593)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (3941985)|VARIABLE_ASSIGNMENT|[28]|value|"SFDC-Callout/50.0"
+16:36:10.0 (3966906)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (3969478)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:10
+16:36:10.0 (3972883)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:10
+16:36:10.0 (3976464)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4017928)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4027241)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4041025)|VARIABLE_ASSIGNMENT|[28]|name|"Connection"
+16:36:10.0 (4045455)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4055666)|VARIABLE_ASSIGNMENT|[28]|value|"keep-alive"
+16:36:10.0 (4082595)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4087338)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:36:10.0 (4089996)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:35
+16:36:10.0 (4094165)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4121000)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4129301)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4138402)|VARIABLE_ASSIGNMENT|[28]|name|"Host"
+16:36:10.0 (4144129)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4154098)|VARIABLE_ASSIGNMENT|[28]|value|"polsource8-dev-ed.my (15 more) ..."
+16:36:10.0 (4179937)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4184580)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+16:36:10.0 (4188406)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+16:36:10.0 (4191057)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4217206)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4225019)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4235569)|VARIABLE_ASSIGNMENT|[28]|name|"Pragma"
+16:36:10.0 (4240168)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4262487)|VARIABLE_ASSIGNMENT|[28]|value|"no-cache"
+16:36:10.0 (4283997)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4287713)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+16:36:10.0 (4291411)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+16:36:10.0 (4293675)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4316519)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4323179)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4332822)|VARIABLE_ASSIGNMENT|[28]|name|"X-Salesforce-SIP"
+16:36:10.0 (4337041)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4346325)|VARIABLE_ASSIGNMENT|[28]|value|"85.222.158.8"
+16:36:10.0 (4369001)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4371475)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:13
+16:36:10.0 (4374723)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+16:36:10.0 (4378230)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4401045)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4407670)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4416166)|VARIABLE_ASSIGNMENT|[28]|name|"Cache-Control"
+16:36:10.0 (4420111)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4429200)|VARIABLE_ASSIGNMENT|[28]|value|"no-cache"
+16:36:10.0 (4451786)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4454240)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+16:36:10.0 (4457563)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+16:36:10.0 (4461055)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4483202)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4489778)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4497810)|VARIABLE_ASSIGNMENT|[28]|name|"SFDC_STACK_DEPTH"
+16:36:10.0 (4503653)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4511175)|VARIABLE_ASSIGNMENT|[28]|value|"1"
+16:36:10.0 (4533009)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4536533)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+16:36:10.0 (4538573)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+16:36:10.0 (4541881)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4564338)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4571005)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4580540)|VARIABLE_ASSIGNMENT|[28]|name|"X-Salesforce-SNI"
+16:36:10.0 (4584611)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4592597)|VARIABLE_ASSIGNMENT|[28]|value|"PRESENT"
+16:36:10.0 (4614844)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4618690)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+16:36:10.0 (4621813)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:33
+16:36:10.0 (4624057)|VARIABLE_SCOPE_BEGIN|[28]|this|System.RestRequest|true|false
+16:36:10.0 (4646208)|VARIABLE_ASSIGNMENT|[28]|this|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (4653496)|VARIABLE_SCOPE_BEGIN|[28]|name|String|false|false
+16:36:10.0 (4663275)|VARIABLE_ASSIGNMENT|[28]|name|"Content-Type"
+16:36:10.0 (4667496)|VARIABLE_SCOPE_BEGIN|[28]|value|String|false|false
+16:36:10.0 (4677302)|VARIABLE_ASSIGNMENT|[28]|value|"application/x-www-fo (13 more) ..."
+16:36:10.0 (4715496)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:36:10.0 (4718355)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (4765742)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.requestBody|BLOB(0 bytes)|0x1a63eabe
+16:36:10.0 (4844895)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:156
+16:36:10.0 (4849487)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:10
+16:36:10.0 (4860187)|SYSTEM_METHOD_ENTRY|[1]|RestResponse.RestResponse()
+16:36:10.0 (4864738)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (4869947)|SYSTEM_METHOD_EXIT|[1]|RestResponse
+16:36:10.0 (4876405)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+16:36:10.0 (4880921)|VARIABLE_SCOPE_BEGIN|[7]|this|System.RestResponse|true|false
+16:36:10.0 (4902634)|VARIABLE_ASSIGNMENT|[7]|this|{}|0xfafcfae
+16:36:10.0 (5044680)|VARIABLE_SCOPE_BEGIN|[3]|System.RestContext.request|System.RestRequest|true|true
+16:36:10.0 (5058658)|VARIABLE_SCOPE_BEGIN|[4]|System.RestContext.response|System.RestResponse|true|true
+16:36:10.0 (5071387)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:112
+16:36:10.0 (5076834)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:36:10.0 (5082562)|SYSTEM_METHOD_ENTRY|[1]|RestContext.RestContext()
+16:36:10.0 (5086706)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (5090649)|SYSTEM_METHOD_EXIT|[1]|RestContext
+16:36:10.0 (5098214)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+16:36:10.0 (5152937)|VARIABLE_ASSIGNMENT|[EXTERNAL]|System.RestContext.request|{"headers":"0x18108bc3","httpMethod":"POST","params":"0xfc8bc5b","remoteAddress":"85.222.158.8","requestBody":BLOB(0 bytes),"requestURI":"/Opportunity/","resourcePath":"/services/apexrest/O (11 more) ..."}|0x1a63eabe
+16:36:10.0 (5181676)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+16:36:10.0 (5196920)|VARIABLE_ASSIGNMENT|[EXTERNAL]|System.RestContext.response|{"headers":"0x599d5f4b"}|0xfafcfae
+16:36:10.0 (5929045)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:36:10.0 (5938639)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+16:36:10.0 (5950035)|METHOD_ENTRY|[2]|01p090000039Du9|OpportunityREST.OpportunityREST()
+16:36:10.0 (5957031)|STATEMENT_EXECUTE|[2]
+16:36:10.0 (5964905)|STATEMENT_EXECUTE|[2]
+16:36:10.0 (6446494)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (6466643)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:36:10.0 (6477262)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (6488686)|METHOD_EXIT|[2]|OpportunityREST
+16:36:10.0 (6504468)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (6508959)|HEAP_ALLOCATE|[13]|Bytes:5
+16:36:10.0 (6514979)|STATEMENT_EXECUTE|[12]
+16:36:10.0 (6517229)|STATEMENT_EXECUTE|[13]
+16:36:10.0 (6520942)|HEAP_ALLOCATE|[13]|Bytes:23
+16:36:10.0 (6690706)|HEAP_ALLOCATE|[13]|Bytes:569
+16:36:10.0 (6707027)|HEAP_ALLOCATE|[13]|Bytes:592
+16:36:10.0 (6732939)|USER_DEBUG|[13]|DEBUG|SZPAK @httppost requestRestRequest:[headers={Accept=text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2, Cache-Control=no-cache, CipherSuite=ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 443, Connection=keep-alive, Content-Type=application/x-www-form-urlencoded, Host=polsource8-dev-ed.my.salesforce.com, Pragma=no-cache, SFDC_STACK_DEPTH=1, User-Agent=SFDC-Callout/50.0, X-Salesforce-SIP=85.222.158.8, ...}, httpMethod=POST, params={["006090000023dmSAAQ","006090000023dmTAAQ"]=}, remoteAddress=85.222.158.8, requestBody=Blob[0], requestURI=/Opportunity/, resourcePath=/services/apexrest/Opportunity/]
+16:36:10.0 (6747517)|STATEMENT_EXECUTE|[14]
+16:36:10.0 (6750456)|HEAP_ALLOCATE|[14]|Bytes:20
+16:36:10.0 (6813690)|HEAP_ALLOCATE|[14]|Bytes:7
+16:36:10.0 (6825093)|HEAP_ALLOCATE|[14]|Bytes:27
+16:36:10.0 (6833502)|USER_DEBUG|[14]|DEBUG|SZPAK @httppost bodyBlob[0]
+16:36:10.0 (6840685)|STATEMENT_EXECUTE|[15]
+16:36:10.0 (6842864)|HEAP_ALLOCATE|[15]|Bytes:22
+16:36:10.0 (6895135)|HEAP_ALLOCATE|[15]|Bytes:46
+16:36:10.0 (6905827)|HEAP_ALLOCATE|[15]|Bytes:68
+16:36:10.0 (6914207)|USER_DEBUG|[15]|DEBUG|SZPAK @httppost params{["006090000023dmSAAQ","006090000023dmTAAQ"]=}
+16:36:10.0 (6939478)|STATEMENT_EXECUTE|[16]
+16:36:10.0 (7043222)|HEAP_ALLOCATE|[16]|Bytes:51
+16:36:10.0 (7056976)|VARIABLE_SCOPE_BEGIN|[16]|wrapperList|Set<String>|true|false
+16:36:10.0 (7085424)|VARIABLE_ASSIGNMENT|[16]|wrapperList|["[\"006090000023dmSAAQ (23 more) ..."]|0x32409dbb
+16:36:10.0 (7121428)|STATEMENT_EXECUTE|[17]
+16:36:10.0 (7268882)|HEAP_ALLOCATE|[17]|Bytes:45
+16:36:10.0 (7294242)|HEAP_ALLOCATE|[17]|Bytes:17
+16:36:10.0 (7338928)|HEAP_ALLOCATE|[17]|Bytes:37
+16:36:10.0 (7348903)|VARIABLE_SCOPE_BEGIN|[17]|wrapperString|String|false|false
+16:36:10.0 (7365396)|VARIABLE_ASSIGNMENT|[17]|wrapperString|"006090000023dmSAAQ,0 (17 more) ..."
+16:36:10.0 (7372311)|STATEMENT_EXECUTE|[18]
+16:36:10.0 (7374834)|HEAP_ALLOCATE|[18]|Bytes:1
+16:36:10.0 (7422890)|HEAP_ALLOCATE|[18]|Bytes:18
+16:36:10.0 (7428078)|HEAP_ALLOCATE|[18]|Bytes:18
+16:36:10.0 (7431952)|HEAP_ALLOCATE|[18]|Bytes:12
+16:36:10.0 (7442278)|VARIABLE_SCOPE_BEGIN|[18]|listOfIds|List<String>|true|false
+16:36:10.0 (7472677)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+16:36:10.0 (7487061)|VARIABLE_ASSIGNMENT|[18]|listOfIds|["006090000023dmSAAQ","006090000023dmTAAQ"]|0x5181ae61
+16:36:10.0 (7495519)|STATEMENT_EXECUTE|[20]
+16:36:10.0 (7497591)|HEAP_ALLOCATE|[20]|Bytes:47
+16:36:10.0 (7510817)|HEAP_ALLOCATE|[20]|Bytes:4
+16:36:10.0 (7522500)|HEAP_ALLOCATE|[20]|Bytes:7
+16:36:10.0 (7897695)|SOQL_EXECUTE_BEGIN|[20]|Aggregations:0|SELECT Id FROM Opportunity WHERE Id IN :tmpVar1
+16:36:10.0 (27938842)|SOQL_EXECUTE_END|[20]|Rows:2
+16:36:10.0 (27977202)|HEAP_ALLOCATE|[20]|Bytes:12
+16:36:10.0 (28014118)|HEAP_ALLOCATE|[20]|Bytes:58
+16:36:10.0 (28083222)|HEAP_ALLOCATE|[20]|Bytes:12
+16:36:10.0 (28114427)|VARIABLE_SCOPE_BEGIN|[20]|opp|List<Opportunity>|true|false
+16:36:10.0 (28155283)|VARIABLE_ASSIGNMENT|[20]|opp|[{"Id":"006090000023dmSAAQ"},{"Id":"006090000023dmTAAQ"}]|0x1e18a956
+16:36:10.0 (28162983)|STATEMENT_EXECUTE|[21]
+16:36:10.0 (28223870)|DML_BEGIN|[21]|Op:Delete|Type:Opportunity|Rows:2
+16:36:10.0 (28255196)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+16:36:10.0 (46550071)|CODE_UNIT_STARTED|[EXTERNAL]|01q090000004UTZ|OpportunityTrigger on Opportunity trigger event BeforeDelete|__sfdc_trigger/OpportunityTrigger
+16:36:10.0 (46688044)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+16:36:10.0 (46964489)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:36:10.0 (46975212)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTrigger|true|false
+16:36:10.0 (47011724)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x7adec080
+16:36:10.0 (47069476)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:36:10.0 (47077744)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTrigger|true|false
+16:36:10.0 (47092441)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x7adec080
+16:36:10.0 (47100471)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (47102356)|STATEMENT_EXECUTE|[10]
+16:36:10.0 (48838234)|VARIABLE_SCOPE_BEGIN|[2]|OpportunityTriggerHandler.TriggerDisabled|Boolean|false|true
+16:36:10.0 (49773317)|HEAP_ALLOCATE|[10]|Bytes:27
+16:36:10.0 (49839731)|METHOD_ENTRY|[1]|01p090000038lM8|OpportunityTriggerHandler.OpportunityTriggerHandler()
+16:36:10.0 (49846195)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (49850760)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (50265967)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (50283494)|HEAP_ALLOCATE|[2]|Bytes:5
+16:36:10.0 (50291582)|STATEMENT_EXECUTE|[2]
+16:36:10.0 (50297472)|HEAP_ALLOCATE|[2]|Bytes:5
+16:36:10.0 (50339423)|VARIABLE_ASSIGNMENT|[2]|OpportunityTriggerHandler.TriggerDisabled|false
+16:36:10.0 (50349065)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (50373339)|METHOD_EXIT|[1]|OpportunityTriggerHandler
+16:36:10.0 (50386708)|HEAP_ALLOCATE|[10]|Bytes:4
+16:36:10.0 (50403446)|CONSTRUCTOR_ENTRY|[10]|01p090000038lM8|<init>()|OpportunityTriggerHandler
+16:36:10.0 (50428230)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTriggerHandler|true|false
+16:36:10.0 (50449024)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x3824f066
+16:36:10.0 (50459506)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (50464182)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:36:10.0 (50499286)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (50504405)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (50507221)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (50510320)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:36:10.0 (50515242)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (50522762)|CONSTRUCTOR_EXIT|[10]|01p090000038lM8|<init>()|OpportunityTriggerHandler
+16:36:10.0 (57627165)|HEAP_ALLOCATE|[10]|Bytes:1
+16:36:10.0 (57654103)|METHOD_ENTRY|[1]|01p09000001pCj9|TriggerDispatcher.TriggerDispatcher()
+16:36:10.0 (57661254)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (57664972)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (57669281)|METHOD_EXIT|[1]|TriggerDispatcher
+16:36:10.0 (57691514)|METHOD_ENTRY|[10]|01p09000001pCj9|TriggerDispatcher.Run(ITriggerHandler)
+16:36:10.0 (57701525)|VARIABLE_SCOPE_BEGIN|[6]|handler|ITriggerHandler|true|false
+16:36:10.0 (57727686)|VARIABLE_ASSIGNMENT|[6]|handler|{}|0x3824f066
+16:36:10.0 (57737658)|STATEMENT_EXECUTE|[6]
+16:36:10.0 (57758918)|METHOD_ENTRY|[8]|01p090000038lM8|OpportunityTriggerHandler.IsDisabled()
+16:36:10.0 (57810743)|VARIABLE_SCOPE_BEGIN|[4]|this|OpportunityTriggerHandler|true|false
+16:36:10.0 (57828091)|VARIABLE_ASSIGNMENT|[4]|this|{}|0x3824f066
+16:36:10.0 (58295975)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (58310739)|HEAP_ALLOCATE|[5]|Bytes:5
+16:36:10.0 (58319190)|STATEMENT_EXECUTE|[4]
+16:36:10.0 (58321072)|STATEMENT_EXECUTE|[5]
+16:36:10.0 (58324509)|HEAP_ALLOCATE|[5]|Bytes:5
+16:36:10.0 (58331789)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (58344107)|METHOD_EXIT|[8]|01p090000038lM8|OpportunityTriggerHandler.IsDisabled()
+16:36:10.0 (58352410)|STATEMENT_EXECUTE|[9]
+16:36:10.0 (58357654)|METHOD_EXIT|[10]|01p09000001pCj9|TriggerDispatcher.Run(ITriggerHandler)
+16:36:10.58 (58372618)|CUMULATIVE_LIMIT_USAGE
+16:36:10.58 (58372618)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:36:10.58 (58372618)|CUMULATIVE_LIMIT_USAGE_END
+
+16:36:10.0 (59868242)|CODE_UNIT_FINISHED|OpportunityTrigger on Opportunity trigger event BeforeDelete|__sfdc_trigger/OpportunityTrigger
+16:36:10.0 (194499845)|CODE_UNIT_STARTED|[EXTERNAL]|01q090000004UTZ|OpportunityTrigger on Opportunity trigger event AfterDelete|__sfdc_trigger/OpportunityTrigger
+16:36:10.0 (194566709)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+16:36:10.0 (194696244)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:36:10.0 (194708808)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTrigger|true|false
+16:36:10.0 (194744774)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x6c4571d2
+16:36:10.0 (194774870)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+16:36:10.0 (194782506)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTrigger|true|false
+16:36:10.0 (194796973)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x6c4571d2
+16:36:10.0 (194812009)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (194815752)|STATEMENT_EXECUTE|[10]
+16:36:10.0 (194821432)|HEAP_ALLOCATE|[10]|Bytes:4
+16:36:10.0 (194838234)|CONSTRUCTOR_ENTRY|[10]|01p090000038lM8|<init>()|OpportunityTriggerHandler
+16:36:10.0 (194896207)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTriggerHandler|true|false
+16:36:10.0 (194914997)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x2dae3b3a
+16:36:10.0 (195408527)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (195430220)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:36:10.0 (195470525)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (195478711)|STATEMENT_EXECUTE|[1]
+16:36:10.0 (195484482)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (195488659)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+16:36:10.0 (195494316)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (195505367)|CONSTRUCTOR_EXIT|[10]|01p090000038lM8|<init>()|OpportunityTriggerHandler
+16:36:10.0 (195523607)|METHOD_ENTRY|[10]|01p09000001pCj9|TriggerDispatcher.Run(ITriggerHandler)
+16:36:10.0 (195532224)|VARIABLE_SCOPE_BEGIN|[6]|handler|ITriggerHandler|true|false
+16:36:10.0 (195556193)|VARIABLE_ASSIGNMENT|[6]|handler|{}|0x2dae3b3a
+16:36:10.0 (195565378)|STATEMENT_EXECUTE|[6]
+16:36:10.0 (195575464)|METHOD_ENTRY|[8]|01p090000038lM8|OpportunityTriggerHandler.IsDisabled()
+16:36:10.0 (195582291)|VARIABLE_SCOPE_BEGIN|[4]|this|OpportunityTriggerHandler|true|false
+16:36:10.0 (195595162)|VARIABLE_ASSIGNMENT|[4]|this|{}|0x2dae3b3a
+16:36:10.0 (195606114)|SYSTEM_MODE_ENTER|false
+16:36:10.0 (195611736)|HEAP_ALLOCATE|[5]|Bytes:5
+16:36:10.0 (195616499)|STATEMENT_EXECUTE|[4]
+16:36:10.0 (195618499)|STATEMENT_EXECUTE|[5]
+16:36:10.0 (195622388)|HEAP_ALLOCATE|[5]|Bytes:5
+16:36:10.0 (195627640)|SYSTEM_MODE_EXIT|false
+16:36:10.0 (195638739)|METHOD_EXIT|[8]|01p090000038lM8|OpportunityTriggerHandler.IsDisabled()
+16:36:10.0 (195646497)|STATEMENT_EXECUTE|[9]
+16:36:10.0 (195649694)|METHOD_EXIT|[10]|01p09000001pCj9|TriggerDispatcher.Run(ITriggerHandler)
+16:36:10.195 (195658046)|CUMULATIVE_LIMIT_USAGE
+16:36:10.195 (195658046)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:36:10.195 (195658046)|CUMULATIVE_LIMIT_USAGE_END
+
+16:36:10.0 (196913129)|CODE_UNIT_FINISHED|OpportunityTrigger on Opportunity trigger event AfterDelete|__sfdc_trigger/OpportunityTrigger
+16:36:10.0 (202922055)|DML_END|[21]
+16:36:10.0 (203020885)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+16:36:10.0 (203045415)|SYSTEM_MODE_EXIT|false
+16:36:10.215 (215042618)|CUMULATIVE_LIMIT_USAGE
+16:36:10.215 (215042618)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:36:10.215 (215042618)|CUMULATIVE_LIMIT_USAGE_END
+
+16:36:10.0 (215079872)|CODE_UNIT_FINISHED|OpportunityREST.deleteOpportunities()
+16:36:10.0 (215096495)|EXECUTION_FINISHED

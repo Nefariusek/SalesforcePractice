@@ -10,6 +10,9 @@ global with sharing class OpportunityREST {
 
     @HttpPost
     global static void deleteOpportunities() {
+        System.debug('SZPAK @httppost request' + RestContext.request);
+        System.debug('SZPAK @httppost body' + RestContext.request.requestBody);
+        System.debug('SZPAK @httppost params' + RestContext.request.params);
         Set<String> wrapperList = RestContext.request.params.keySet();
         String wrapperString = wrapperList.toString().replaceAll('\\{|\\[|\\"|\\]|\\=|\\}', '');
         List<String> listOfIds = wrapperstring.split(',');
