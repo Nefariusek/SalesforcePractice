@@ -2,7 +2,7 @@ public with sharing class OpportunityTriggerHandler implements ITriggerHandler {
     public static Boolean TriggerDisabled = false;
 
     public Boolean IsDisabled() {
-        return false;
+        return true;
     }
 
     public void BeforeInsert(List<SObject> newItems) {

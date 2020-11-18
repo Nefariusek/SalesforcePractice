@@ -6,7 +6,7 @@ public class QuoteTriggerHandler implements ITriggerHandler {
         Checks to see if the trigger has been disabled either by custom setting or by running code
     */
     public Boolean IsDisabled() {
-        return false;
+        return true;
     }
 
     public void BeforeInsert(List<SObject> newItems) {
