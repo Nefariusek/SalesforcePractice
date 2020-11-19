@@ -1,9 +1,6 @@
 <template>
-    <lightning-card title="ContactInformation" icon-name="custom:custom14">
+    <lightning-card title="Parent of Text Area component" icon-name="custom:13">
         <div class="slds-m-around_medium">
-            <template for:each={contacts} for:item="contact">
-                <div key={contact.Id}>{contact.Name}, {contact.Title}</div>
-            </template>
             <c-text-area rows="5" cols="100" value={textAreaContent} onchange={handleChange}></c-text-area>
             <p>Value parent: {textAreaContent}</p>
         </div>

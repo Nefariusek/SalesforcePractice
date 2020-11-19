@@ -1,16 +1,11 @@
 import { LightningElement, track } from 'lwc';
 
 export default class AccountsList extends LightningElement {
-    @track textAreaInput = '';
-
-    debugTextArea(event) {
-        //this.textAreaInput = event.detail.value;;
-        console.log('test ', this.textAreaInput);
-    }
+    @track textAreaContent;
 
     handleChange(event) {
-        this.textAreaInput = event.detail.value;
-        console.log('MPYC this.textAreaInput ', this.textAreaInput);
+        this.textAreaContent = event.detail.textAreaContent;
+        console.log('SZPAK this.textAreaContent ', this.textAreaContent);
     }
 
     @track

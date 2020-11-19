@@ -2,10 +2,17 @@
     <div class="slds-form-element">
         <label class="slds-form-element__label" for="textarea-id-01">{label}</label>
         <div class="slds-form-element__control">
-            <textarea id="textarea-id-01" class="slds-textarea" rows={rows} cols={cols} placeholder={placeholder} onchange={handleChange}>
-                {value}
+            <textarea
+                id="textarea-id-01"
+                class="slds-textarea"
+                rows={rows}
+                cols={cols}
+                placeholder={placeholder}
+                oninput={handleChange}
+            >
+                {textAreaContent}
             </textarea>
+            <p>Value child {valueRet}</p>
         </div>
-        <!-- <p> text: <slot name="textAreaValue">sth</slot></p> -->
     </div>
 </template>
