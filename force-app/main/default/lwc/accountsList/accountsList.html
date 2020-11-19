@@ -4,6 +4,7 @@
             <template for:each={contacts} for:item="contact">
                 <div key={contact.Id}>{contact.Name}, {contact.Title}</div>
             </template>
+            <c-text-area rows="50" cols="40" value={textAreaInput} onchange={handleChange}></c-text-area>
         </div>
     </lightning-card>
 </template>
