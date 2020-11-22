@@ -21,6 +21,7 @@ public class AccountTriggerHandler implements ITriggerHandler {
     public void AfterInsert(Map<Id, SObject> newItems) {
         Map<Id, Account> newAccMap = (Map<Id, Account>) newItems;
         Map<Id, Account> filteredAcc = filterNewYorkBillingCity(newAccMap);
+        System.debug('SZPAK konta' + filteredAcc);
     }
 
     public void AfterUpdate(Map<Id, SObject> newItems, Map<Id, SObject> oldItems) {
@@ -40,5 +41,8 @@ public class AccountTriggerHandler implements ITriggerHandler {
             }
         }
         return filteredAcc;
+    }
+
+    private void createCases() {
     }
 }

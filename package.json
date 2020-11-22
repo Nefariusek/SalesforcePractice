@@ -39,5 +39,8 @@
     "**/{aura|lwc}/**": [
       "eslint"
     ]
+  },
+  "dependencies": {
+    "@salesforce/lwc-dev-server": "^2.6.0"
   }
 }

@@ -14,8 +14,6 @@ export default class TextArea extends LightningElement {
         const lwcEvent = new CustomEvent('change', {
             detail: { textAreaContent: this.valueRet }
         });
-        console.log('SZPAK event');
-        console.log(lwcEvent);
         this.dispatchEvent(lwcEvent);
     }
 }
