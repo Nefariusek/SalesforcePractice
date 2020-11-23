@@ -1,18 +1,16 @@
-import { LightningElement, api, track } from 'lwc';
+import { LightningElement, api } from 'lwc';
 
 export default class TextArea extends LightningElement {
     @api label;
     @api rows;
     @api cols;
     @api placeholder;
-    @track value;
-    valueRet = '';
+    textAreaContent;
 
     handleChange(event) {
-        this.valueRet = event.target.value;
-        console.log('SZPAK value child', this.valueRet);
+        this.textAreaContent = event.target.value;
         const lwcEvent = new CustomEvent('change', {
-            detail: { textAreaContent: this.valueRet }
+            detail: { textAreaContent: this.textAreaContent }
         });
         this.dispatchEvent(lwcEvent);
     }
