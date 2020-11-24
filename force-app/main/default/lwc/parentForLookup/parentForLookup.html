@@ -1,0 +1,16 @@
+<template>
+    <lightning-layout>
+        <lightning-card title="Parent for Lookup Component" icon-name="custom:11">
+            <div class="slds-m-around_medium">
+                <c-lookup
+                    object-name="Account"
+                    title-of-record="Name"
+                    fields-of-record="BillingCity, Phone"
+                    label="Input"
+                    onchange={handleChange}
+                ></c-lookup>
+            </div>
+            <p>Selected record: {selectedRecordId}</p>
+        </lightning-card>
+    </lightning-layout>
+</template>

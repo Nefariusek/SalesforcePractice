@@ -42,5 +42,6 @@
 //delete quoList2;
 
 //System.debug(QuoteCalloutUtil.getQuotesFromApi());
-QuoteCalloutUtil.getPawelQuotesFromApi();
+//QuoteCalloutUtil.getPawelQuotesFromApi();
 //System.debug(QuoteCalloutUtil.getPawelQuotesFromApi());
+LwcLookupController.getRecords('Ko', 'Account', 'Name, BillingCity');
