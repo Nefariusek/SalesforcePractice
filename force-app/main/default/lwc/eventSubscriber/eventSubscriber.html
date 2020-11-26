@@ -1,0 +1,27 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_medium">
+            <p>Platform events subscriber</p>
+            <lightning-input
+                class="slds-m-bottom_small"
+                label="Channel Name"
+                value={channelName}
+                onchange={handleChannelNameChange}
+            ></lightning-input>
+            <lightning-button
+                variant="success"
+                label="Subscribe"
+                onclick={handleSubscribe}
+                disabled={isSubscribeDisabled}
+                class="slds-m-left_x-small"
+            ></lightning-button>
+            <lightning-button
+                variant="success"
+                label="Unsubscribe"
+                onclick={handleUnsubscribe}
+                disabled={isUnsubscribeDisabled}
+                class="slds-m-left_x-small"
+            ></lightning-button>
+        </div>
+    </lightning-card>
+</template>
