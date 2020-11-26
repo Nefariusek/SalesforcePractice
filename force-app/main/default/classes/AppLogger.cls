@@ -1,3 +1,3 @@
 public interface AppLogger {
-    String logMessage();
+    void logMessage(HttpRequest request, HttpResponse response);
 }

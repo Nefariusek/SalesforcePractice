@@ -1,5 +1,11 @@
 public class WebserviceObjectLogger implements AppLogger {
-    public String logMessage() {
-        return 'It will create new record in WebserviceLog__c';
+    public void logMessage(HttpRequest request, HttpResponse response) {
+        WebserviceLog__c logToInsert = new WebserviceLog__c(
+            Name = 'RequestLog',
+            Request__c = request.toString(),
+            Response__c = JSON.serializePretty(response.getBody()),
+            Status_Code__c = response.getStatusCode()
+        );
+        insert logToInsert;
     }
 }

@@ -42,5 +42,6 @@ public with sharing class QuoteCalloutUtil {
         request.setMethod('GET');
         request.setHeader('Content-Type', 'application/json;charset=UTF-8');
         HttpResponse response = http.send(request);
+        System.debug(response);
     }
 }
