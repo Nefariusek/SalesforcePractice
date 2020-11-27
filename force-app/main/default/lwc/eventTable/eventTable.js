@@ -1,3 +1,12 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, api } from 'lwc';
 
-export default class EventTable extends LightningElement {}
+const columns = [
+    { label: 'Request', fieldName: 'request', type: 'text' },
+    { label: 'Response', fieldName: 'response', type: 'text' },
+    { label: 'Status Code', fieldName: 'statusCode', type: 'number' }
+];
+
+export default class EventTable extends LightningElement {
+    @api logsArr;
+    columns = columns;
+}

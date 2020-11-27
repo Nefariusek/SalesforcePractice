@@ -1,0 +1,32 @@
+<template>
+    <table class="slds-table slds-table_cell-buffer slds-table_fixed-layout slds-table_bordered">
+        <thead>
+            <tr class="slds-line-height_reset">
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Request">Request</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Response">Response</div>
+                </th>
+                <th class="" scope="col">
+                    <div class="slds-truncate" title="Status">Status</div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <template for:each={logsArr} for:item="log">
+                <tr class="slds-hint-parent" key={log}>
+                    <td data-label="Request">
+                        <div class="slds-truncate">{log.request}</div>
+                    </td>
+                    <td data-label="Response">
+                        <div class="slds-truncate">{log.response}</div>
+                    </td>
+                    <td data-label="Status">
+                        <div class="slds-truncate">{log.statusCode}</div>
+                    </td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+</template>
