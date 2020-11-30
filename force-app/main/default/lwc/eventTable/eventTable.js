@@ -9,4 +9,8 @@ const columns = [
 export default class EventTable extends LightningElement {
     @api logsArr;
     columns = columns;
+
+    handleChange(event) {
+        this.logsArr = logsArr;
+    }
 }
