@@ -2,7 +2,7 @@ public class LoggerPlatformEventCreator implements AppLogger {
     public void logMessage(HttpRequest request, HttpResponse Response) {
         Logger_Event__e logEvent = new Logger_Event__e(
             Request__c = request.toString(),
-            Response__c = JSON.serializePretty(response.getBody()),
+            Response__c = response.getBody(),
             Status_Code__c = response.getStatusCode()
         );
 
