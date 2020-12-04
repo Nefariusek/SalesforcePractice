@@ -1,0 +1,8 @@
+<aura:component>
+    <aura:attribute name="data" type="Object" />
+    <aura:attribute name="columns" type="List" />
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}" />
+    <div style="height: 300px">
+        <lightning:datatable keyField="id" data="{! v.data }" columns="{! v.columns }" hideCheckboxColumn="true" />
+    </div>
+</aura:component>

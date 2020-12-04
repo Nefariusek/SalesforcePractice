@@ -19,13 +19,13 @@ export default class EmpApiLWC extends LightningElement {
 
     handleSubscribe() {
         const messageCallback = (res) => {
-            console.log('New message received: ', JSON.stringify(res));
+            console.log('New message received: ', res);
             this.logsArr = [
                 ...this.logsArr,
                 {
-                    request: JSON.stringify(res.data.payload.Request__c),
-                    response: JSON.stringify(res.data.payload.Response__c),
-                    statusCode: JSON.stringify(res.data.payload.Status_Code__c)
+                    request: res.data.payload.Request__c,
+                    response: res.data.payload.Response__c,
+                    statusCode: res.data.payload.Status_Code__c
                 }
             ];
             console.log('SZPAK Logsarr', this.logsArr);

@@ -8,7 +8,7 @@ public class DICallout {
         request.setHeader('Content-Type', 'application/json;charset=UTF-8');
         HttpResponse response = http.send(request);
 
-        AppLogger logger = (AppLogger) WebserviceLoggerInjector.instantiate();
+        AppLogger logger = (AppLogger) WebserviceLoggerInjector.instantiate(true);
         logger.logMessage(request, response);
         //System.debug(logger.logMessage());
     }

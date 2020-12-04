@@ -12,7 +12,7 @@ public class LoggerPlatformEventCreator implements AppLogger {
             System.debug('Successfully published event.');
         } else {
             for (Database.Error err : result.getErrors()) {
-                System.debug('Error returned: ' + err.getStatusCode() + ' - ' + err.getMessage());
+                throw new MyException('Error returned: ' + err.getStatusCode() + ' - ' + err.getMessage());
             }
         }
     }

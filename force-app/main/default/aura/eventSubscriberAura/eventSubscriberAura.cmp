@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <lightning:empApi aura:id="empApi" />
+    <aura:attribute name="data" type="Array" />
+    <aura:attribute name="columns" type="List" />
+    <aura:attribute name="subscription" type="Map" />
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}" />
+    <div>
+        <lightning:input
+            aura:id="channel"
+            label="Channel Name"
+            name="channel"
+            type="text"
+            value="/event/Logger_Event__e"
+        />
+        <lightning:button label="Subscribe" onclick="{! c.subscribe }" variant="success" />
+        <lightning:button
+            label="Unsubscribe"
+            onclick="{! c.unsubscribe }"
+            disabled="{!empty(v.subscription)}"
+            variant="success"
+        />
+        <div style="height: 300px">
+            <lightning:datatable keyField="id" data="{! v.data }" columns="{! v.columns }" hideCheckboxColumn="true" />
+        </div>
+    </div>
+</aura:component>

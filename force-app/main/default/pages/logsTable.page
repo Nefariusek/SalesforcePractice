@@ -1,0 +1,15 @@
+<apex:page controller="WebserviceLogsTableController" lightningStylesheets="true">
+    <apex:pageBlock title="dataTable">
+        <apex:pageBlockTable id="datatable" value="{!logs}" var="log" columns="3" columnsWidth="30%,40%,30%">
+            <apex:column headerValue="Request">
+                <apex:outputText value="{!log.Request__c}" />
+            </apex:column>
+            <apex:column headerValue="Response">
+                <apex:outputText value="{!log.Response__c}" />
+            </apex:column>
+            <apex:column headerValue="StatusCode">
+                <apex:outputText value="{!log.Status_Code__c}" />
+            </apex:column>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>
